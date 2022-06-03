@@ -7,7 +7,6 @@ process.title = "Bothane Development"
 const client = new discord.Client({ disableEveryone: true, intents: 98303 })
 
 client.config = require("./config.json")
-client.emoji = require("./emojis.json")
 
 require("./src/loaders/loader")(client)
 
